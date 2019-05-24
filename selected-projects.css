@@ -1,0 +1,171 @@
+@font-face {
+	font-family: Function Pro;
+	font-weight: 500;
+	src: url(font/FunctionPro-Medium.otf);
+}
+
+@font-face {
+	font-family: Function Pro;
+	font-weight: 700;
+	src: url(font/FunctionPro-Bold.otf);
+}
+
+@font-face {
+	font-family: Function Pro;
+	font-weight: 200;
+	src: url(font/FunctionPro-Light.otf);
+}
+
+@font-face {
+	font-family: Function Pro;
+	font-weight: 200;
+	font-style: oblique;
+	src: url(font/FunctionPro-LightOblique.otf);
+}
+
+body {
+	background-color: #000;
+	color: #fff;
+	font-family: function pro;
+	font-weight: 500;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	margin: 40px;
+}
+
+nav a {
+	text-decoration: none;
+	color: #fff;
+	margin-right: 20px;
+}
+
+.selected {
+	padding-bottom: 1px;
+	border-bottom: 2px solid #fff;
+}
+
+.logo img{
+	margin-top: -10px;
+	width: 45px;
+	height: 25px;
+}
+
+/*div.one a{
+	text-decoration: none;
+	color: #fff;
+	font-weight: 700;
+}
+
+div.one {
+	margin-left: 40px;
+}
+
+div.one img {
+	width: 65%;
+	margin-top: 50px;
+	margin-bottom: 10px;
+}
+
+div.one span {
+	font-weight: 200;
+	font-style: oblique;
+}*/
+
+div.content a{
+	text-decoration: none;
+	color: #fff;
+	font-weight: 700;
+}
+
+div.one {
+	margin-left: 40px;
+	margin-bottom: 180px;
+}
+
+div.one img {
+	width: 65%;
+	margin-top: 50px;
+	margin-bottom: 10px;
+}
+
+div.content span {
+	font-weight: 200;
+	font-style: oblique;
+}
+
+
+/*div.two {
+	display: flex;
+	justify-content: space-between;
+}
+*/
+div.two {
+	position: relative;
+	overflow: hidden;
+	padding-bottom: 50px;
+	margin-bottom: 180px;
+}
+
+div.two-img img {
+	width: 30%;
+}
+
+div.two-img .savannah {
+	float:left;
+}
+
+div.two-img .martin {
+	float: right;
+}
+
+h2 {
+	position: absolute;
+	font-size: 16px;
+	top: 94%;
+	right: 0;
+}
+
+
+div.three {
+	margin-bottom: 180px;
+	position: relative;
+}
+
+div.three img {
+	width: 65%;
+/*	margin-top: 50px;*/
+	margin-bottom: 180px;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+div.third-text {
+	position: absolute;
+	left: 33.5%;
+	transform: translateX(-50%);
+	margin-top: 474px;
+/*	top: 80%;*/
+}
+
+div.content span {
+	font-weight: 200;
+	font-style: oblique;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
