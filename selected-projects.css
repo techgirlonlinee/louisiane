@@ -131,7 +131,7 @@ h2 {
 
 div.three {
 	margin-bottom: 180px;
-	position: relative;
+/*	position: relative;*/
 }
 
 div.three img {
@@ -144,8 +144,9 @@ div.three img {
 }
 
 div.third-text {
-	position: absolute;
-	left: 43.7%;
+/*	position: absolute;*/
+	position: relative;
+	left: 50%;
 	transform: translateX(-50%);
 /*	margin-top: 474px;*/
 	top: 80%;
