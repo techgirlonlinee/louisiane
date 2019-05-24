@@ -1,0 +1,167 @@
+@font-face {
+	font-family: Function Pro;
+	font-weight: 500;
+	src: url(font/FunctionPro-Medium.otf);
+}
+
+@font-face {
+	font-family: Function Pro;
+	font-weight: 700;
+	src: url(font/FunctionPro-Bold.otf);
+}
+
+@font-face {
+	font-family: Function Pro;
+	font-weight: 200;
+	src: url(font/FunctionPro-Light.otf);
+}
+
+@font-face {
+	font-family: Function Pro;
+	font-weight: 200;
+	font-style: oblique;
+	src: url(font/FunctionPro-LightOblique.otf);
+}
+
+body {
+	background-color: #000;
+	color: #fff;
+	font-family: function pro;
+	font-weight: 500;
+	margin:0;
+	overflow-x: hidden;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	margin: 40px;
+}
+
+nav a {
+	text-decoration: none;
+	color: #fff;
+	margin-right: 20px;
+}
+
+.selected {
+	padding-bottom: 1px;
+	border-bottom: 2px solid #fff;
+}
+
+.logo img{
+	margin-top: -10px;
+	width: 45px;
+	height: 25px;
+}
+
+h1 {
+/*	padding-top: 120px;*/
+	font-size: 18px;
+}
+
+
+section {
+	position: relative;
+	width: 400px;
+	top: 120px;
+	left: 130px;
+	font-weight: 200;
+	font-size: 13px;
+}
+
+section p {
+	font-weight: 200;
+	font-size: 13px;
+}
+
+section p.watch {
+	margin-bottom: 0px;
+}
+
+.link {
+	text-decoration: none;
+	color: #fff;
+	font-weight: 200;
+	font-size: 13px;
+}
+
+.descript {
+	margin-top: 120px;
+}
+
+img.rightf {
+	width: 400px;
+    position: absolute;
+    top: 257px;
+    right: 220px;
+}
+
+img.opening {
+	position: absolute;
+	top: 350px;
+	height: 500px;
+	right: -15%;
+}
+
+img.bleed {
+	width: 970px;
+    position: absolute;
+    top: 600px;
+    left: 130px;
+    margin-bottom: 180px;
+}
+
+.des-link {
+	text-decoration: none;
+	color: #fff;
+	font-weight: 200;
+	font-size: 13px;
+}
+
+span {
+	font-size: 12px;
+	margin-left: 20px;
+	cursor: default;
+}
+
+footer{
+    width: 740px;
+    margin-left: 130px;
+    font-weight: 200;
+    font-size: 13px;
+    position: absolute;
+    top: 1200px;
+}
+
+li {
+	display: inline;
+}
+footer {
+    font-size: 12px
+}
+
+.name1,.name2,.name3{
+  margin-right: 10px
+}
+
+.buttons a{
+	text-decoration: none;
+	color: #fff;
+	margin-bottom: 50px;
+}
+
+.button-p {
+    position: absolute;
+    top: 1350px;
+    left: 60px;
+}
+
+.button-n {
+    position: absolute;
+    top: 1350px;
+    right: 60px;
+}
+
+
+

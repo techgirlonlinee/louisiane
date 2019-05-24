@@ -1,0 +1,64 @@
+@font-face {
+	font-family: Function Pro;
+	font-weight: 500;
+	src: url(font/FunctionPro-Medium.otf);
+}
+
+@font-face {
+	font-family: Function Pro;
+	font-weight: 700;
+	src: url(font/FunctionPro-Bold.otf);
+}
+
+@font-face {
+	font-family: Function Pro;
+	font-weight: 200;
+	src: url(font/FunctionPro-Light.otf);
+}
+
+@font-face {
+	font-family: Function Pro;
+	font-weight: 200;
+	font-style: oblique;
+	src: url(font/FunctionPro-LightOblique.otf);
+}
+
+body {
+	background-color: #000;
+	color: #fff;
+	font-family: function pro;
+	font-weight: 500;
+	margin:0;
+	overflow-x: hidden;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	margin: 40px;
+}
+
+nav a {
+	text-decoration: none;
+	color: #fff;
+	margin-right: 20px;
+}
+
+.selected {
+	padding-bottom: 1px;
+	border-bottom: 2px solid #fff;
+}
+
+.logo img{
+	margin-top: -10px;
+	width: 45px;
+	height: 25px;
+}
+
+h1 {
+	font-size: 18px;
+}
+
+img {
+	display: flex;
+}
