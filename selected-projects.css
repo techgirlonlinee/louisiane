@@ -28,6 +28,7 @@ body {
 	color: #fff;
 	font-family: function pro;
 	font-weight: 500;
+	margin: 0px;
 }
 
 header {
@@ -53,26 +54,6 @@ nav a {
 	height: 25px;
 }
 
-/*div.one a{
-	text-decoration: none;
-	color: #fff;
-	font-weight: 700;
-}
-
-div.one {
-	margin-left: 40px;
-}
-
-div.one img {
-	width: 65%;
-	margin-top: 50px;
-	margin-bottom: 10px;
-}
-
-div.one span {
-	font-weight: 200;
-	font-style: oblique;
-}*/
 
 div.content a{
 	text-decoration: none;
@@ -97,11 +78,6 @@ div.content span {
 }
 
 
-/*div.two {
-	display: flex;
-	justify-content: space-between;
-}
-*/
 div.two {
 	position: relative;
 	overflow: hidden;
@@ -110,7 +86,7 @@ div.two {
 }
 
 div.two-img img {
-	width: 30%;
+	width: 32%;
 }
 
 div.two-img .savannah {
@@ -125,7 +101,7 @@ h2 {
 	position: absolute;
 	font-size: 16px;
 	top: 94%;
-	right: 0;
+	right: 0.5%;
 }
 
 
@@ -146,10 +122,11 @@ div.three img {
 div.third-text {
 /*	position: absolute;*/
 	position: relative;
-	left: 50%;
-	transform: translateX(-50%);
+/*	left: 50%;
+	transform: translateX(-50%);*/
 /*	margin-top: 474px;*/
-	top: 80%;
+	left: 221px;
+	top: 470px;
 }
 
 div.content span {

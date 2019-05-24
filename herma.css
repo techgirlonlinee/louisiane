@@ -61,17 +61,26 @@ h1 {
 
 section {
 	position: relative;
-	width: 500px;
+	width: 400px;
 	top: 120px;
 	left: 130px;
 }
 
 section p {
 	font-weight: 200;
-	font-size: 14px;
+	font-size: 13px;
 }
 
+img.rightf {
+	width: 400px;
+    position: absolute;
+    top: 257px;
+    right: 220px;
+}
 
+img.opening {
+	height: 600px;
+}
 
 
 footer{
