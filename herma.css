@@ -53,3 +53,43 @@ nav a {
 	height: 25px;
 }
 
+h1 {
+/*	padding-top: 120px;*/
+	font-size: 18px;
+}
+
+
+section {
+	position: relative;
+	width: 500px;
+	top: 120px;
+	left: 130px;
+}
+
+section p {
+	font-weight: 200;
+	font-size: 14px;
+}
+
+
+
+
+footer{
+  font-family: Functionpro Light;
+/*  display: flex;
+  flex-direction: row;*/
+  display: block;
+  width: 1000px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+footer {
+    font-size: 12px
+}
+
+.name1,.name2,.name3{
+  margin-right: 36px
+}
