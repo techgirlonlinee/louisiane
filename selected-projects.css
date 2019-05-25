@@ -107,11 +107,13 @@ h2 {
 
 div.three {
 	margin-bottom: 180px;
-/*	position: relative;*/
+	position: relative;
+	height: 574px;
 }
 
 div.three img {
-	width: 65%;
+	width: 975px;
+    height: 533px;
 /*	margin-top: 50px;*/
 	margin-bottom: 180px;
 	position: absolute;
@@ -120,13 +122,11 @@ div.three img {
 }
 
 div.third-text {
-/*	position: absolute;*/
-	position: relative;
-/*	left: 50%;
-	transform: translateX(-50%);*/
-/*	margin-top: 474px;*/
-	left: 221px;
-	top: 470px;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-69.5%);
+	width: 700px;
+	bottom: 4px;
 }
 
 div.content span {

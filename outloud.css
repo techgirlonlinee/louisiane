@@ -99,9 +99,11 @@ img.rightf {
 
 img.opening {
 	position: absolute;
-	top: 350px;
-	height: 500px;
-	right: -15%;
+    top: 473px;
+    height: 500px;
+    width: 100px;
+    right: 0;
+    object-fit: cover;
 }
 
 img.bleed {
