@@ -89,7 +89,7 @@ img.opening {
     object-fit: cover;
 }
 
-img.bleed {
+.bleed {
 	width: 970px;
     position: absolute;
     top: 800px;
