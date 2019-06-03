@@ -86,7 +86,8 @@ div.two {
 }
 
 div.two-img img {
-	width: 32%;
+	/*width: 32%;*/
+	width: 410px;
 }
 
 div.two-img .savannah {
