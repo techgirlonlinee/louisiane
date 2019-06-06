@@ -5,7 +5,6 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Louisiane Trotobas</title>
-		<link rel="stylesheet" href="base.css">
 		<link rel="stylesheet" href="style.css">
 	</head>
 	<body>
@@ -15,7 +14,7 @@
 			<nav>
 				<a href="index.html" class="selected">ALL</a>
 				<a href="selected-projects.html">SELECTED PROJECTS</a>
-				<a href="about.html">ABOUT</a>
+				<a href="JavaScript:newPopup('about.html');">ABOUT</a>
 			</nav>
 			<div class="logo">
 				<img src="images/loulogo.png">
@@ -59,6 +58,16 @@
 		  	</a>
 		  
 		</section>
+
+<!-- about pop up -->
+<script type="text/javascript">
+
+function newPopup(url) {
+	popupWindow = window.open(
+		url,'popUpWindow','height=400,width=500,left=420,top=250,menubar=no,location=no,resizable=0,resizable=no,directories=no,status=yes')
+}
+
+</script>
 
 
 	</body>

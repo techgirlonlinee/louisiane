@@ -73,6 +73,7 @@ section {
 section p {
 	font-weight: 200;
 	font-size: 13px;
+	margin-top: 43px;
 }
 
 section p.watch {
@@ -93,13 +94,14 @@ section p.watch {
 img.rightf {
 	width: 400px;
     position: absolute;
-    top: 257px;
+    top: 287px;
     right: 220px;
 }
 
 img.opening {
 	position: absolute;
-    top: 473px;
+    /*top: 473px;*/
+    top: 511px;
     height: 500px;
     width: 100px;
     right: 0;
@@ -109,7 +111,7 @@ img.opening {
 .bleed {
 	width: 970px;
     position: absolute;
-    top: 600px;
+    top: 673px;
     left: 130px;
     margin-bottom: 180px;
 }
@@ -139,8 +141,14 @@ footer{
 li {
 	display: inline;
 }
+
 footer {
-    font-size: 12px
+    width: 785px;
+    margin-left: 130px;
+    font-weight: 200;
+    font-size: 13px;
+    position: absolute;
+    top: 1298px;
 }
 
 .name1,.name2,.name3{
@@ -155,7 +163,7 @@ footer {
 
 .button-p {
     position: absolute;
-    top: 1350px;
+    top: 1414px;
     left: 60px;
 }
 

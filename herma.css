@@ -58,6 +58,7 @@ nav a {
 h1 {
 /*	padding-top: 120px;*/
 	font-size: 18px;
+	padding-bottom: 28px;
 }
 
 
@@ -76,13 +77,14 @@ section p {
 img.rightf {
 	width: 400px;
     position: absolute;
-    top: 257px;
+    top: 287px;
     right: 220px;
 }
 
 img.opening {
 	position: absolute;
-    top: 473px;
+    /*top: 473px;*/
+    top: 512px;
     height: 500px;
     width: 100px;
     right: 0;
@@ -92,9 +94,9 @@ img.opening {
 .bleed {
 	width: 970px;
     position: absolute;
-    top: 800px;
+    top: 776px;
     left: 130px;
-    margin-bottom: 220px;
+    margin-bottom: 180px;
 }
 
 .des-link {

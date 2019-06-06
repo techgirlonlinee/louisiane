@@ -89,7 +89,7 @@ section p.watch {
 	margin-top: 120px;
 }
 
-
+/*
 img.bleed {
 	width: 970px;
     position: absolute;
@@ -97,7 +97,18 @@ img.bleed {
     left: 130px;
     margin-bottom: 180px;
 }
+*/
 
+.second {
+	margin-top: 228px;
+	width: 1260px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.second img {
+	width: 350px;
+	margin: 30px;
+}
 
 
 .buttons a{
@@ -108,13 +119,13 @@ img.bleed {
 
 .button-p {
     position: absolute;
-    top: 1350px;
+    top: 2065px;
     left: 60px;
 }
 
 .button-n {
     position: absolute;
-    top: 1350px;
+    top: 2065px;
     right: 60px;
 }
 
