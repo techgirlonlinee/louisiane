@@ -45,6 +45,9 @@ nav a {
 	margin-right: 20px;
 }
 
+nav a:hover {
+	border-bottom: 2px solid #fff;
+}
 
 .selected {
 	padding-bottom: 1px;
