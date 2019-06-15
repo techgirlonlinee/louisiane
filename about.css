@@ -45,3 +45,8 @@ section {
     font-size: 15.7px;
     line-height: 1.5;
 }
+
+.links img {
+	width: 20px;
+	height: 20px;
+}
